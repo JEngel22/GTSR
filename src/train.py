@@ -39,7 +39,7 @@ class Net(nn.Module):
 
 batch_size = 64
 
-dataset_split = (0,0.7,0.2) # Splitting-Factors: Train (Placeholder: rest of all minus val and test), Validation, Test - Validation for future-feature
+dataset_split = (0,0,0.2) # Splitting-Factors: Train (Placeholder: rest of all minus val and test), Validation, Test - Validation for future-feature
 
 transform = transforms.Compose(
     [transforms.ToTensor(),
